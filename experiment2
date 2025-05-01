@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>설문지로 이동 중...</title>
+  <script>
+    const surveys = [
+      "https://forms.gle/qKYB4ud3GMsukY757", // 여기에 새 구글 설문 링크 넣기
+      "https://forms.gle/Lq4NenauUJPrPHk56",
+      "https://forms.gle/rcZzL4PPLj3Y1AFt8",
+      "https://forms.gle/HXyawKQ125Z4K5rG8"
+    ];
+
+    const randomIndex = Math.floor(Math.random() * surveys.length);
+    window.location.href = surveys[randomIndex];
+  </script>
+</head>
+<body>
+  설문지로 랜덤 배정 중입니다. 잠시만 기다려 주세요...
+</body>
+</html>
